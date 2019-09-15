@@ -183,7 +183,7 @@ read r
                             fi
             
             if [ $r -eq 2 ]; then
-            echo "Uncle Ben was watching movie in the same room. He also got shot but you managed to save him. You won the game"
+            echo "Good choices, Uncle Ben is alive. You won the game"
 
             exit
                             fi
