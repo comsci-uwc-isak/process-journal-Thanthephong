@@ -13,7 +13,7 @@ do
 	if [ $num == x ]; then
 		echo "exiting"
 		valid=false
-		exit
+		
 
 	else 
 	((sum = num + sum))
