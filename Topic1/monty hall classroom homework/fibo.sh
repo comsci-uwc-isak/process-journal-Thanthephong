@@ -1,20 +1,21 @@
 #!/bin/bash
-
+# This programs creating a fibonacci sequence
 echo "Enter N: "
 read n
-x=1
-y=0
-i=0
-a=0
+x=1  #x is the third number of the program
+y=0	#y is the second number of the program
+count=0
+sum=0
 echo -n "0 1 "
 ((n=n-2))
-while [ $i -lt $n ]
+
+while [ $count -lt $n ]
 do
-	((a=x+y))
-	echo -n $a" "
+	((sum=x+y))
+	echo -n $sum" "
 	((y=x))
-	((x=a))
-	((i=i+1))	
+	((x=sum))
+	((count=count+1))	
 done
 echo " "
 
