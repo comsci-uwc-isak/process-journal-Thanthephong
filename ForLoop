@@ -1,0 +1,22 @@
+FOR LOOP, Markdown
+
+for color in Blue Green Pink Red
+do
+	echo “Color is = $color”
+done
+
+
+S*: arguments
+
+for (( n=1; n<=100 ; n++))
+do  
+    echo "Interation: $n"
+done
+
+for (( start, end, step ))
+
+
+Markdown format
+
+=: for titles
+-: for subtitles

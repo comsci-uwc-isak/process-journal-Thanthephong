@@ -1,0 +1,35 @@
+The pace of the lesson is quite fast but I still managed to catch up with. Although sometimes the homework can be quite difficult but I always love to do it, and it is much more enjoyable to do comparing to other subjects' homework. Here are the codes and lines that I have taken notes of:
+
+Computer Science L2 notes:
+Terminal
+Who
+Pwd: Path of working directory
+cd: Change directory
+ls: List files
+cd ..  : go up / go back
+cd ~ : go al the way up
+cd ~/Documents: go to documents no matter where cd is
+mkdir ( Make directory ) : creating folder
+
+echo “Hello world” > myname.txt: Send text to the file
+echo “ smth” > smth.txt
+echo -n “smth” : the next echo will be on the same line
+echo -e “Smth”: the \ and “ “ will be deleted
+
+
+Move folder: mv “file” “to”
+
+mv ~/email.txt ~/Documents/Comsci
+
+ifconfig: finding IP address
+ ( inet 192.168.10.99 netmask 0xfffffc00 broadcast 192.168.11.255)
+
+Calculate:
+#!/bin/bash ( Start of the program always have this ) 
+((sum=25+36))
+echo $sum
+
+OR
+
+((age=355*15))
+echo $age

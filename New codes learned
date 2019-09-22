@@ -1,0 +1,41 @@
+Computer science L4 notes
+if [[ ($num -le 0 && $num -le 5) ]]; then
+
+fi
+
+If num>0 and num<5 then
+
+-gt: Greater than
+-ge: greater or equal than
+
+&&: and
+||: or
+
+check if something is equal to something:
+text 1 == text 2
+
+cat -n login.sh: debugging
+
+read -s: hide input
+
+((x=(RANDOM%100)+1))
+
+
+ComSci #5
+
+SaaS: Software as a Service
+
+(( i ++ )): increase i by 1
+
+while [ condition ] 
+do
+	commands
+
+done
+
+while [ $i -le 5 ]
+do
+(( i++))	
+echo “haha” done
+
+sleep 1: wait for 1 second
